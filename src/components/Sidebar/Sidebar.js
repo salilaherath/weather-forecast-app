@@ -18,6 +18,10 @@ const Sidebar = () => {
         <div className="weather-type">Mostly Cloudy</div>
         <div className="rain">Rain - 24%</div>
       </div>
+      <div className="deg-selector">
+        <div className="deg-selector-cel">°C</div>
+        {/* <div className="deg-selector-far">°F</div> */}
+      </div>
     </div>
   );
 };

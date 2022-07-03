@@ -32,7 +32,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 80px;
+  margin: 80px 0 350px 0;
 }
 
 .location {
@@ -49,4 +49,22 @@
 
 .weather-type {
   font-size: 20px;
+}
+
+.deg-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.deg-selector-cel {
+  background: #5a9bfe;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
